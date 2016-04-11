@@ -41,7 +41,6 @@ $color-brand: $color-spaceblack;
 
 $whitespace			: 20px;
 $width-sidebar		: 250px;
-$global-border-box  : true;		// true or false
 $devmode-overlay	: false; 	// true or false
 $devmode-breakpoints: false; 	// true or false
 $breakpoints: (
@@ -57,21 +56,12 @@ $breakpoints: (
 
 /* =======================================*/
 /*
-/* FONTS
+/* TYPOGRAPHY & FONTS
 /*
 /* =======================================*/
 
-// Google Fonts
 @import url(https://fonts.googleapis.com/css?family=Raleway:500,600,400);
 @import url(https://fonts.googleapis.com/css?family=Roboto:400,500,300);
-
-
-
-/* =======================================*/
-/*
-/* TYPOGRAPHY
-/*
-/* =======================================*/
 
 $font-headline	: 'Raleway', sans-serif;
 $font-text		: 'Roboto', sans-serif;
@@ -79,6 +69,7 @@ $font-size		: 13px;
 $line-height	: 1.6;
 $color-headline	: $color-black;
 $color-text		: lighten($color-black, 5%);
+
 
 
 /* =======================================*/
